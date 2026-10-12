@@ -4,7 +4,7 @@
 
 import os
 
-NEUGEN_API_KEY = os.getenv("NEUGEN_API_KEY", "nugen-4b77084118fd74dd")
+NEUGEN_API_KEY = os.getenv("NEUGEN_API_KEY", " ")
 
 # Neugen Cloud endpoints
 EMBEDDINGS_URL = "https://api.nugen.in/api/v3/inference/embeddings"
